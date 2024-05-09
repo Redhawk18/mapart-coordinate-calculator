@@ -14,7 +14,7 @@ row = int(x)
 colunm = int(z)
 
 x, y, z = input(
-    "Enter the Northeast coordinate of the mapart below the noobline. "
+    "Enter the above Northeast coordinate of the mapart on the noobline. "
 ).split()
 orgin = Coordinate(int(x), int(y), int(z))
 
