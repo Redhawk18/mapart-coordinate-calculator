@@ -19,9 +19,7 @@ x, y, z = input(
 orgin = Coordinate(int(x), int(y), int(z))
 
 northeast = Coordinate(orgin.x, orgin.y, orgin.z)
-southwest = Coordinate(
-    orgin.x + MAPART_SIZE - 1, orgin.y + 1, orgin.z + MAPART_SIZE - 1
-)
+southwest = Coordinate(orgin.x + MAPART_SIZE - 1, orgin.y + 1, orgin.z + MAPART_SIZE)
 
 for i in range(row):
     northeast.z = orgin.z
